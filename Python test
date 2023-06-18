@@ -1,0 +1,14 @@
+import random
+def randmult():
+    c=0
+    while c != 4:
+        a = random.randint(1, 9)
+        b = random.randint(1, 9)
+        c = a*b
+        if c != 4:
+            print('a = '+str(a)+', c = '+str(c))
+    print('Success!')
+    print('a = ' + str(a) + ', b = ' + str(b))
+
+if __name__ == '__main__':
+   randmult()
